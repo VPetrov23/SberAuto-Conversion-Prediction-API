@@ -37,7 +37,6 @@ sberauto_conversion_project/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── requirements.txt
-├── prepare_model.py
 ├── Описание данных.pdf
 └── Проектная_практика(final).ipynb
 ```
@@ -112,7 +111,8 @@ POST /predict
   "visit_month": 11,
   "visit_day": 24,
   "visit_weekday": 2,
-  "visit_hour": 14 }
+  "visit_hour": 14
+}
 ```
 
 Пример ответа:
